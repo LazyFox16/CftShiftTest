@@ -49,7 +49,7 @@ public class Initializer {
             throw new IllegalArgumentException("Missing type key");
         }
 
-        if (fileNames == null || fileNames.size() < 3) {
+        if (fileNames == null || fileNames.size() < 2) {
             throw new IllegalArgumentException("Missing file names");
         }
     }
